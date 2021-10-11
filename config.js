@@ -34,7 +34,7 @@ exports.dateFormat="Do MMMM YYYY";
 exports.ONESIGNAL_APP_ID="YOUR_ONESIGNAL_APP_ID";
 
 //Google setup
-exports.GOOGLE_API_KEY="AIzaSyAOsayYWWARZlfe0N-6sPMce6fAGu7FhPk;
+exports.GOOGLE_API_KEY="AIzaSyAOsayYWWARZlfe0N-6sPMce6fAGu7FhPk";
 exports.queryTypes="address"
 exports.queryCountries=['es']; //{['pl', 'fr','us']}
 
