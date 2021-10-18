@@ -35,7 +35,7 @@ const Login = ({navigation}) => {
         >
           <Block flex middle>
             <Block style={styles.registerContainer}>
-              
+
               <Block flex>
                 <Block flex={0.17} middle style={{marginTop:20}}>
                   <Image source={Images.food_tiger_logo} style={{width: (487/2),height: (144/2)}}/>
@@ -47,7 +47,7 @@ const Login = ({navigation}) => {
                     behavior="padding"
                     enabled
                   >
-                    
+
                     <Block width={width * 0.8} style={{ marginBottom: 15 }}>
                       <Input
                        value ={email}
@@ -65,14 +65,14 @@ const Login = ({navigation}) => {
                         }
                       />
                     </Block>
-                    
-                   
+
+
                     <Block width={width * 0.8}>
                       <Input
                        value ={password}
                         password
                         borderles
-                        placeholder={"Password"}
+                        placeholder={"Contraseña"}
                         onChangeText={text => setPassword(text)}
                         iconContent={
                           <Icon
@@ -84,7 +84,7 @@ const Login = ({navigation}) => {
                           />
                         }
                       />
-                      
+
                     </Block>
 
 
@@ -102,18 +102,11 @@ const Login = ({navigation}) => {
                             </Text>
                           </TouchableOpacity>
                         </Block>
-                      <Block>
-                        <TouchableOpacity  onPress={()=> navigation.navigate('Register')} >
-                          <Text  size={14} color={argonTheme.COLORS.PRIMARY}>
-                            {Language.register}
-                          </Text>
-                        </TouchableOpacity>
-                      </Block>
-                      
+
                     </Block>
 
-                    
-                    
+
+
                     <Block middle>
                       <Button color="primary" style={styles.createButton} onPress={()=> signIn({email:email,password:password,toastok:toastok,toasterror:toasterror})}>
                         <Text bold size={14} color={argonTheme.COLORS.WHITE}>
@@ -121,13 +114,13 @@ const Login = ({navigation}) => {
                         </Text>
                       </Button>
                     </Block>
-                    
+
                   </KeyboardAvoidingView>
                 </Block>
               </Block>
-                        
-              
-            
+
+
+
             </Block>
           </Block>
         </ImageBackground>
@@ -192,4 +185,3 @@ const styles = StyleSheet.create({
     marginTop: 25
   }
 });
-
