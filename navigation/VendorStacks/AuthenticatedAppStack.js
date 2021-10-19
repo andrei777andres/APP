@@ -24,9 +24,9 @@ export default function  PublicAppStack(props) {
         screenOptions={{headerShown: false}}
         style={{ flex: 1 }}
         drawerContent={props => <CustomDrawerContent {...props} screens={[
-          {"title":"Orders",'link':"Orders"},
-          {"title":"Earnings",'link':"Earnings"},
-          {"title":"Notifications",'link':"Notifications"},
+          {"title":"Pedidos",'link':"Orders"},
+          {"title":"Ganancias",'link':"Earnings"},
+          {"title":"Notificaciones",'link':"Notifications"},
           {"title":Language.profile,'link':"Profile"},
         ]} />}
         drawerStyle={{
