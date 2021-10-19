@@ -17,7 +17,7 @@ export default function  OrdersStack(props) {
     return (
         <Stack.Navigator presentation="card" >
             <Stack.Screen
-                name="Orders"
+                name="Pedidos"
                 component={Orders}
                 options={{
                     headerMode:"screen",

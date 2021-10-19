@@ -27,7 +27,7 @@ const Login = ({navigation}) => {
   const [ password, setPassword ] = useState("");
 
   return (
-    <Block flex middle>
+    <Block stlye="alignItems: center" flex middle>
         <StatusBar hidden />
         <ImageBackground
           source={Images.RegisterBackground}

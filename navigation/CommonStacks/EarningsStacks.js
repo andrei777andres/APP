@@ -16,7 +16,7 @@ export default function  ProfileStack(props) {
     return (
         <Stack.Navigator presentation="card" >
             <Stack.Screen
-                name="Earnings"
+                name="Ganancias"
                 component={Earnings}
                 options={{
                     headerMode:"screen",

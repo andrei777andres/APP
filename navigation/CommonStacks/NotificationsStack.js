@@ -13,11 +13,11 @@ import Header from "../../components/Header";
 const Stack = createStackNavigator();
 
 export default function  NotificationsStack(props) {
-    
+
     return (
         <Stack.Navigator presentation="card" >
             <Stack.Screen
-                name="Notifications"
+                name="Notificaciones"
                 component={Notifications}
                 options={{
                     headerMode:"screen",
