@@ -11,7 +11,7 @@ class DrawerItem extends React.Component {
     const { title, focused, screen } = this.props;
 
     switch (screen) {
-      case "Home":
+      case "Inicio":
         return (
           <Icon
             name="shop"
@@ -20,7 +20,7 @@ class DrawerItem extends React.Component {
             color={focused ? "white" : argonTheme.COLORS.PRIMARY}
           />
         );
-        case "Notifications":
+        case "Notificaciones":
           return (
             <Icon
               name="bell"
@@ -38,7 +38,7 @@ class DrawerItem extends React.Component {
               color={focused ? "white" : argonTheme.COLORS.SUCCESS}
             />
         );
-      case "Orders":
+      case "Pedidos":
           return (
             <Icon
               name="basket"
@@ -47,7 +47,7 @@ class DrawerItem extends React.Component {
               color={focused ? "white" : argonTheme.COLORS.WARNING}
             />
         );
-      case "Earnings":
+      case "Ganancias":
           return (
             <Icon
               name="chart-pie-35"
@@ -65,7 +65,7 @@ class DrawerItem extends React.Component {
             color={focused ? "white" : argonTheme.COLORS.ERROR}
           />
         );
-      
+
       case "Articles":
         return (
           <Icon
@@ -104,7 +104,7 @@ class DrawerItem extends React.Component {
         );
       case "Getting Started":
         return <Icon />;
-      case "Log out":
+      case "Cerrar Sesión":
         return <Icon />;
       default:
         return null;
@@ -136,7 +136,7 @@ class DrawerItem extends React.Component {
         </Block>
       </Block>
       </TouchableOpacity>
-      
+
     );
   }
 }

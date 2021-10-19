@@ -109,7 +109,7 @@ export default Language = {
    cancel:"Cancel",
    errorOnOrder:"Error on placing the order.",
    status:"Status",
-   created:"Created",
+   created:"Creado",
    orderDetails:"Order details",
    restaurant:"Restaurant",
    deliveryAddress:"Delivery address",
