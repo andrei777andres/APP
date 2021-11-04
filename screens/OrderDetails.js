@@ -11,12 +11,13 @@ import Fancy from "./../components/Fancy"
 import InfoBox from "../components/InfoBox"
 import API from './../services/api'
 import Button from "../components//Button";
+import 'moment/locale/es';
 
 
 /**
    * Open on the map the location of the restaurant
-   * @param {Float} lat 
-   * @param {Float} long 
+   * @param {Float} lat
+   * @param {Float} long
    */
  function openExternalApp(lat, long) {
   var scheme = Platform.OS === 'ios' ? 'apple' : 'google'
@@ -32,7 +33,7 @@ import Button from "../components//Button";
 
 /**
    * Call the restaurant function
-   * @param {String} phoneNumber 
+   * @param {String} phoneNumber
    */
  function openPhoneApp(phoneNumber) {
   console.log(phoneNumber)
@@ -66,7 +67,7 @@ function OrderDetails({navigation,route}){
           setRefreshing(false);
         },(error)=>{alert(error)})
       }else{
-      } 
+      }
     },[refreshing])
 
     useEffect(()=>{
@@ -80,14 +81,14 @@ function OrderDetails({navigation,route}){
       }, 20000);
       return () => clearInterval(interval);
     }, []);
-    
+
 
     function showActions(){
       if(config.DRIVER_APP||config.VENDOR_APP){
         if(order.actions.buttons.length>0||order.actions.message){
           return (
             <InfoBox title={Language.actions}>
-              <Block center  height={order.actions.buttons.length==0?50:null}> 
+              <Block center  height={order.actions.buttons.length==0?50:null}>
               {
                 order.actions.buttons.map((action)=>{
                   return (<Button onPress={()=>{setAction(action)}} style={{opacity:(action.indexOf('reject')>-1?0.5:1)}} size="large" color={action.indexOf('reject')>-1?"error":"success"} >{Language[action].toUpperCase()}</Button>)
@@ -103,12 +104,12 @@ function OrderDetails({navigation,route}){
       }else{
         return null
       }
-    
+
     }
 
     function showDeliveryAddress(){
         if(order.delivery_method==1&&order.address){
-         return ( 
+         return (
             <InfoBox title={Language.deliveryAddress}>
                  <Text  size={14} style={styles.cardTitle}>{order.address.address}</Text>
                  <Block row center>
@@ -116,7 +117,7 @@ function OrderDetails({navigation,route}){
                           <Button onPress={()=>{openExternalApp(order.address.lat,order.address.lng)}} size="small" color={"warning"} >{Language.directions.toUpperCase()}</Button>
                 </Block>
             </InfoBox>
-        
+
          )
         }else{
           return null;
@@ -125,12 +126,12 @@ function OrderDetails({navigation,route}){
 
       function showDriver(){
         if(order.delivery_method==1&&order.driver){
-         return ( 
+         return (
             <InfoBox title={Language.driver}>
                  <Text  size={14} style={styles.cardTitle}>{Language.driverName+": "}{order.driver.name}</Text>
                  <Text  size={14} style={styles.cardTitle}>{Language.driverPhone+": "}{order.driver.phone}</Text>
             </InfoBox>
-        
+
          )
         }else{
           return null;
@@ -139,9 +140,9 @@ function OrderDetails({navigation,route}){
 
       function showMap(){
         if(order.delivery_method==1&&order.driver&&order.status[order.status.length-1].alias=="picked_up"){
-         return ( 
+         return (
             <InfoBox title={Language.orderTracking}>
-                 <MapView 
+                 <MapView
                     region={{
                         latitude: order.lat,
                         longitude:order.lng,
@@ -152,15 +153,15 @@ function OrderDetails({navigation,route}){
                     showsScale={true}
                     showsBuildings={true}
                 >
-                    <Marker 
+                    <Marker
                 key={1}
                 coordinate={{latitude:order.lat,longitude:order.lng}}
                 title={"Location"}
-                description={""} 
+                description={""}
                 />
                 </MapView>
             </InfoBox>
-        
+
          )
         }else{
           return null;
@@ -169,18 +170,18 @@ function OrderDetails({navigation,route}){
 
     return (
         <Block flex center style={styles.home}>
-          
+
         <ScrollView
                 showsVerticalScrollIndicator={false}
                 contentContainerStyle={styles.articles}>
-                  
+
                     <Block flex  >
 
                         {/* MODALS */}
 
                         {/* Reject by driver or owner */}
-                        <Fancy 
-                        visible={action=="rejected_by_driver"||action=="rejected_by_restaurant"} 
+                        <Fancy
+                        visible={action=="rejected_by_driver"||action=="rejected_by_restaurant"}
                         icon_ios={'ios-thumbs-down-outline'} icon_android="md-thumbs-down"
                         title={Language.reject_order} subtitle={Language.reject_order_info}
                         button={Language.ok} closeAction={()=>{setAction("")}}
@@ -193,8 +194,8 @@ function OrderDetails({navigation,route}){
 
 
                         {/* Approve */}
-                        <Fancy 
-                        visible={action=="accepted_by_driver"||action=="accepted_by_restaurant"} 
+                        <Fancy
+                        visible={action=="accepted_by_driver"||action=="accepted_by_restaurant"}
                         icon_ios={'ios-thumbs-up-outline'} icon_android="md-thumbs-up"
                         title={Language.accept_order} subtitle={Language.accept_order_info}
                         button={Language.ok} closeAction={()=>{setAction("")}}
@@ -205,22 +206,10 @@ function OrderDetails({navigation,route}){
                           })}}
                         ></Fancy>
 
-                        {/* Prepare */}
-                        <Fancy 
-                        visible={action=="prepared"} 
-                        icon_ios={'ios-checkmark-circle-outline'} icon_android="md-checkmark-circle"
-                        title={Language.prepared_order} subtitle={Language.prepared_order_info}
-                        button={Language.ok} closeAction={()=>{setAction("")}}
-                        action={()=>{
-                          API.updateOrderStatus(order.id,action,"",(data)=>{
-                            setAction("");
-                            setOrder(data[0]);
-                          })}}
-                        ></Fancy>
 
                          {/* Pickup */}
-                         <Fancy 
-                        visible={action=="picked_up"} 
+                         <Fancy
+                        visible={action=="picked_up"}
                         icon_ios={'ios-checkmark-circle-outline'} icon_android="md-checkmark-circle"
                         title={Language.pickup_order} subtitle={Language.pickup_order_info}
                         button={Language.ok} closeAction={()=>{setAction("")}}
@@ -232,8 +221,8 @@ function OrderDetails({navigation,route}){
                         ></Fancy>
 
                         {/* Delivered */}
-                        <Fancy 
-                        visible={action=="delivered"} 
+                        <Fancy
+                        visible={action=="delivered"}
                         icon_ios={'ios-pin-outline'} icon_android="md-pin"
                         title={Language.deliver_order} subtitle={Language.deliver_order_info}
                         button={Language.ok} closeAction={()=>{setAction("")}}
@@ -243,9 +232,21 @@ function OrderDetails({navigation,route}){
                             setOrder(data[0]);
                           })}}
                         ></Fancy>
-                      
 
-                      
+                        <Fancy
+                        visible={action=="closed"}
+                        icon_ios={'ios-pin-outline'} icon_android="md-pin"
+                        title={Language.close_order} subtitle={Language.close_order_info}
+                        button={Language.ok} closeAction={()=>{setAction("")}}
+                        action={()=>{
+                          API.updateOrderStatus(order.id,"closed","",(data)=>{
+                            setAction("");
+                            setOrder(data[0]);
+                          })}}
+                        ></Fancy>
+
+
+
                         {/* Show actions */}
                         {showActions()}
 
@@ -253,7 +254,7 @@ function OrderDetails({navigation,route}){
                         <InfoBox title={Language.order}>
                             <Text size={14} style={styles.cardTitle}>{Language.orderNumber+": #"}{order.id}</Text>
                             <Text size={14} style={styles.cardTitle}>{Language.created+": "}{moment(order.created_at).format(config.dateTimeFormat)}</Text>
-                            <Text bold size={14} style={styles.cardTitle}>{Language.status+": "}{order.last_status.length>0?order.last_status[0].name:""}</Text>
+                            <Text bold size={14} style={styles.cardTitle}>{Language.status+": "}{order.last_status.length>0? Language[order.last_status[0].alias]:""}</Text>
                         </InfoBox>
 
                          {/* map */}
@@ -262,26 +263,15 @@ function OrderDetails({navigation,route}){
                         {/* Driver */}
                         {showDriver()}
 
-                        {/* Restaurant */}
-                        <InfoBox title={Language.restaurant}>
-                        <Text bold style={styles.cardTitle}>{order.restorant.name}</Text>
-                        <Text muted size={14} style={styles.cardTitle}>{order.restorant.address}</Text>
-                        <Text size={14} style={styles.cardTitle}>{order.restorant.phone}</Text>
-                        <Block row center>
-                          <Button onPress={()=>{openPhoneApp(order.restorant.phone)}} size="small" color={"default"} >{Language.call.toUpperCase()}</Button>
-                          <Button onPress={()=>{openExternalApp(order.restorant.lat,order.restorant.lng)}} size="small" color={"warning"} >{Language.directions.toUpperCase()}</Button>
-                        </Block>
-      
-                        </InfoBox>
-
                         {/* Items */}
                         <InfoBox title={Language.items}>
                            {
                                order.items.map((item,index)=>{
                                 return (
                                   <Block style={{marginTop:10}}>
-                                    <Text size={14} style={styles.cardTitle}>{item.pivot.qty+" x "+item.name+"  "+item.pivot.variant_name+" "+item.pivot.variant_price}{config.currencySign}</Text>
-                                    <Text muted style={styles.cardTitle}>{JSON.parse(item.pivot.extras).join(', ')}</Text>
+                                    <Text size={14} style={styles.cardTitle}>{item.pivot.qty+" x "+item.name+", "+item.pivot.variant_name+" "+item.pivot.variant_price}{config.currencySign}</Text>
+                                    <Text size={14} style={styles.cartTitle}>{"Quitar ingredientes: "+ item.pivot.ingredientes}</Text>
+                                    <Text muted style={styles.cardTitle}>{"Extras: "+JSON.parse(item.pivot.extras).join(', ')}</Text>
                                   </Block>
                                 )
                                 })
@@ -292,12 +282,15 @@ function OrderDetails({navigation,route}){
                         {showDeliveryAddress()}
 
                          {/* deliveryMethod */}
-                         <InfoBox title={Language.deliveryMethod}>
-                         <Text size={14} style={styles.cardTitle}>{Language.deliveryMethod+": "+(order.delivery_method==1?Language.delivery:Language.pickup)}</Text>
-                         <Text size={14} style={styles.cardTitle}>{(order.delivery_method==1==1?Language.deliveryTime:Language.pickupTime)+": "+order.time_formated}</Text>
-                        </InfoBox>
 
-                         
+                         <InfoBox title={Language.deliveryMethod}>
+                         <Text size={14} style={styles.cardTitle}>{Language.deliveryMethod+": "+(order.delivery_method == 3?Language.delivery:Language.pickup)}</Text>
+                         {order.delivery_method === 3 && <Text size={14} style={styles.cardTitle}>{"Mesa a la que entregar: "+order.table.name}</Text>}
+                         {order.delivery_method === 3 && <Text size={14} style={styles.cardTitle}>{"Area: "+order.table.restoarea.name}</Text>}
+                         {order.delivery_method != 3 &&<Text size={14} style={styles.cardTitle}>{(order.delivery_method==2?Language.deliveryTime:Language.pickupTime)+": "+order.time_formated}</Text>}
+                         </InfoBox>
+
+
 
                         {/* summary */}
                         <InfoBox title={Language.summary}>
@@ -316,8 +309,8 @@ function OrderDetails({navigation,route}){
                             </Block>
                         </InfoBox>
 
-                       
-                    
+
+
                 </Block>
             </ScrollView>
         </Block>
@@ -328,7 +321,7 @@ export default OrderDetails
 
 const styles = StyleSheet.create({
     home: {
-        width: width,    
+        width: width,
       },
     card: {
         backgroundColor: theme.COLORS.WHITE,

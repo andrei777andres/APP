@@ -20,7 +20,7 @@ class DrawerItem extends React.Component {
             color={focused ? "white" : argonTheme.COLORS.PRIMARY}
           />
         );
-        case "Notificaciones":
+        case "Notifications":
           return (
             <Icon
               name="bell"
@@ -38,7 +38,7 @@ class DrawerItem extends React.Component {
               color={focused ? "white" : argonTheme.COLORS.SUCCESS}
             />
         );
-      case "Pedidos":
+      case "Orders":
           return (
             <Icon
               name="basket"
@@ -47,7 +47,7 @@ class DrawerItem extends React.Component {
               color={focused ? "white" : argonTheme.COLORS.WARNING}
             />
         );
-      case "Ganancias":
+      case "Earnings":
           return (
             <Icon
               name="chart-pie-35"

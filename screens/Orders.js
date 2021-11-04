@@ -20,7 +20,7 @@ import * as Location from 'expo-location';
 
 function Orders({navigation}){
 
-    
+
 
   //Location
   const [location, setLocation] = useState(null);
@@ -30,13 +30,13 @@ function Orders({navigation}){
   const [available,setAvailable]=useState(false);
   const [ordersLoaded,setOrdersLoaded]=useState(false);
   const [refreshing, setRefreshing] = React.useState(false);
-  
+
   const cardContainer = [styles.card, styles.shadow];
 
 
-    
 
-    
+
+
   useEffect(() => {
     (async () => {
       let { status } = await Location.requestPermissionsAsync();
@@ -56,7 +56,7 @@ function Orders({navigation}){
           API.updateDriverOrderLocation(orderToUpdate.id,location.coords.latitude,location.coords.longitude,(ordersUpdateResponse)=>{},(errorOrdersUpdateResponse)=>{});
         });
       }
-      
+
     }
 
     useEffect(()=>{
@@ -105,7 +105,7 @@ function Orders({navigation}){
     },[refreshing])
 
     const onRefresh = React.useCallback(() => {
-      setRefreshing(true);      
+      setRefreshing(true);
     }, [refreshing]);
 
     //Timer
@@ -125,12 +125,12 @@ function Orders({navigation}){
     }
 
     function renderDriverActionBox(initValue){
-      
+
       if(config.DRIVER_APP){
         if(initValue){
           return (
             <Block row={true} card flex style={styles.actioncard} >
-                <Block style={{"some":available}} flex space="between" justifyContent="center" paddingHorizontal={10} > 
+                <Block style={{"some":available}} flex space="between" justifyContent="center" paddingHorizontal={10} >
                     <Checkbox key={"true"} onChange={setActiveStatus} initialValue={true} color="success" labelStyle={{color:"white"}} color="success"  checkboxStyle={{margin:10}} label={Language.driverWorkingStatus} />
                 </Block>
             </Block>
@@ -138,17 +138,17 @@ function Orders({navigation}){
         }else{
           return (
             <Block row={true} card flex style={styles.actioncard} >
-                <Block style={{"some":available}} flex space="between" justifyContent="center" paddingHorizontal={10} > 
+                <Block style={{"some":available}} flex space="between" justifyContent="center" paddingHorizontal={10} >
                     <Checkbox key={"false"} onChange={setActiveStatus} initialValue={false} color="success" labelStyle={{color:"white"}} color="success"  checkboxStyle={{margin:10}} label={Language.driverWorkingStatus} />
                 </Block>
             </Block>
           )
         }
-        
+
       }else{
         return null
       }
-      
+
     }
 
 
@@ -161,11 +161,11 @@ function Orders({navigation}){
              <Block flex space="between" style={styles.cardDescription}>
                 <Text bold style={styles.cardTitle}>#{item.id} {item.restorant.name}</Text>
                 <Text muted  style={styles.cardTitle}>{Language.created+": "}{moment(item.created_at).format(config.dateTimeFormat)}</Text>
-                <Text muted bold style={styles.cardTitle}>{Language.status+": "}{item.status.length-1>-1?item.status[item.status.length-1].name:""}</Text>
-                <Text bold style={styles.cardTitle}>{parseFloat(item.order_price)+parseFloat(item.delivery_price)}{config.currencySign}</Text>  
+                <Text muted bold style={styles.cardTitle}>{Language.status+": "}{item.status.length-1>-1?Language[item.status[item.status.length-1].alias]:""}</Text>
+                <Text bold style={styles.cardTitle}>{parseFloat(item.order_price)+parseFloat(item.delivery_price)}{config.currencySign}</Text>
             </Block>
           </TouchableOpacity>
-           
+
         </Block>)
     }
 
@@ -196,7 +196,7 @@ return (
                     })
                 }
                 {renderNoOrders()}
-                
+
             </Block>
         </ScrollView>
         <LoadingIndicator  visible={!ordersLoaded}/>
@@ -215,14 +215,14 @@ const styles = StyleSheet.create({
           padding:theme.SIZES.BASE,
       },
     home: {
-      width: width,    
+      width: width,
     },
     articles: {
       width: width - theme.SIZES.BASE * 2,
       paddingVertical: theme.SIZES.BASE,
     },
     actionButtons:{
-  
+
       //width: 100,
       backgroundColor: '#DCDCDC',
       paddingHorizontal: 16,
@@ -233,7 +233,7 @@ const styles = StyleSheet.create({
       shadowOffset: { width: 0, height: 2 },
       shadowRadius: 4,
       shadowOpacity: 1,
-    
+
     },
     card: {
       backgroundColor: theme.COLORS.WHITE,
