@@ -1,5 +1,5 @@
 import React, { useState, useEffect,useRef } from 'react';
-import { StyleSheet,ScrollView,Dimensions, LogBox ,Platform, Linking,} from 'react-native'
+import { StyleSheet,ScrollView,Dimensions, LogBox ,Platform, Linking, Image} from 'react-native'
 import { Block, theme, Text, } from "galio-framework";
 const { height, width } = Dimensions.get('screen');
 import { Language } from '../constants';
@@ -8,6 +8,7 @@ import settings from "./../services/settings";
 import MapView , { Marker } from 'react-native-maps';
 import moment from "moment";
 import Fancy from "./../components/Fancy"
+import { TouchableOpacity } from 'react-native-gesture-handler';
 import InfoBox from "../components/InfoBox"
 import API from './../services/api'
 import Button from "../components//Button";
@@ -53,6 +54,7 @@ function OrderDetails({navigation,route}){
     const [order,setOrder]=useState(route.params.order);
     const [driver_percent_from_deliver,setDriverPercentFromDeliver]=useState(100);
     const [action,setAction]=useState("");
+    const [item,setItem]=useState("");
     const [refreshing, setRefreshing] = React.useState(false);
 
     useEffect(()=>{
@@ -91,7 +93,10 @@ function OrderDetails({navigation,route}){
               <Block center  height={order.actions.buttons.length==0?50:null}>
               {
                 order.actions.buttons.map((action)=>{
-                  return (<Button onPress={()=>{setAction(action)}} style={{opacity:(action.indexOf('reject')>-1?0.5:1)}} size="large" color={action.indexOf('reject')>-1?"error":"success"} >{Language[action].toUpperCase()}</Button>)
+                  return (<Button onPress={()=>{setAction(action); API.updateOrderStatus(order.id,action,"",(data)=>{
+                    setAction("");
+                    setOrder(data[0]);
+                  })}} style={{opacity:(action.indexOf('reject')>-1?0.5:1)}} size="large" color={action.indexOf('reject')>-1?"error":"success"} >{Language[action].toUpperCase()}</Button>)
                 })
               }
               <Text  size={14} muted >{order.actions.message}</Text>
@@ -177,75 +182,18 @@ function OrderDetails({navigation,route}){
 
                     <Block flex  >
 
-                        {/* MODALS */}
-
-                        {/* Reject by driver or owner */}
-                        <Fancy
-                        visible={action=="rejected_by_driver"||action=="rejected_by_restaurant"}
-                        icon_ios={'ios-thumbs-down-outline'} icon_android="md-thumbs-down"
-                        title={Language.reject_order} subtitle={Language.reject_order_info}
-                        button={Language.ok} closeAction={()=>{setAction("")}}
-                        action={()=>{
-                          API.updateOrderStatus(order.id,action,"",(data)=>{
-                            setAction("");
-                            setOrder(data[0]);
-                          })}}
-                        ></Fancy>
-
-
-                        {/* Approve */}
-                        <Fancy
-                        visible={action=="accepted_by_driver"||action=="accepted_by_restaurant"}
-                        icon_ios={'ios-thumbs-up-outline'} icon_android="md-thumbs-up"
-                        title={Language.accept_order} subtitle={Language.accept_order_info}
-                        button={Language.ok} closeAction={()=>{setAction("")}}
-                        action={()=>{
-                          API.updateOrderStatus(order.id,action,"",(data)=>{
-                            setAction("");
-                            setOrder(data[0]);
-                          })}}
-                        ></Fancy>
-
-
-                         {/* Pickup */}
-                         <Fancy
-                        visible={action=="picked_up"}
-                        icon_ios={'ios-checkmark-circle-outline'} icon_android="md-checkmark-circle"
-                        title={Language.pickup_order} subtitle={Language.pickup_order_info}
-                        button={Language.ok} closeAction={()=>{setAction("")}}
-                        action={()=>{
-                          API.updateOrderStatus(order.id,"picked_up","",(data)=>{
-                            setAction("");
-                            setOrder(data[0]);
-                          })}}
-                        ></Fancy>
-
-                        {/* Delivered */}
-                        <Fancy
-                        visible={action=="delivered"}
-                        icon_ios={'ios-pin-outline'} icon_android="md-pin"
-                        title={Language.deliver_order} subtitle={Language.deliver_order_info}
-                        button={Language.ok} closeAction={()=>{setAction("")}}
-                        action={()=>{
-                          API.updateOrderStatus(order.id,"delivered","",(data)=>{
-                            setAction("");
-                            setOrder(data[0]);
-                          })}}
-                        ></Fancy>
-
-                        <Fancy
-                        visible={action=="closed"}
-                        icon_ios={'ios-pin-outline'} icon_android="md-pin"
-                        title={Language.close_order} subtitle={Language.close_order_info}
-                        button={Language.ok} closeAction={()=>{setAction("")}}
-                        action={()=>{
-                          API.updateOrderStatus(order.id,"closed","",(data)=>{
-                            setAction("");
-                            setOrder(data[0]);
-                          })}}
-                        ></Fancy>
-
-
+                          <Fancy
+                         visible={item != ""}
+                         icon_ios={'ios-checkmark-circle-outline'} icon_android="md-checkmark-circle"
+                         title={Language.borraritem} subtitle={Language.borraritem_sub}
+                         button={Language.ok} closeAction={()=>{setItem("")}}
+                         action={()=>{
+                           API.removeItemOrder(item, order.id, (data)=>{
+                             setItem("");
+                             setOrder(data[0]);
+                             setRefreshing(true);
+                           })}}
+                         ></Fancy>
 
                         {/* Show actions */}
                         {showActions()}
@@ -268,10 +216,16 @@ function OrderDetails({navigation,route}){
                            {
                                order.items.map((item,index)=>{
                                 return (
-                                  <Block style={{marginTop:10}}>
-                                    <Text size={14} style={styles.cardTitle}>{item.pivot.qty+" x "+item.name+", "+item.pivot.variant_name+" "+item.pivot.variant_price}{config.currencySign}</Text>
-                                    <Text size={14} style={styles.cartTitle}>{"Quitar ingredientes: "+ item.pivot.ingredientes}</Text>
-                                    <Text muted style={styles.cardTitle}>{"Extras: "+JSON.parse(item.pivot.extras).join(', ')}</Text>
+                                  <Block style={{backgroundColor: "#5e72e4", padding:10, borderRadius:15, marginTop:10}}>
+                                  <Block style={{width: 40, height: 20, alignSelf: "flex-end"}}>
+                                      <TouchableOpacity onPress={()=>{setItem(item.pivot.id)}} style={{backgroundColor:"black", borderRadius: 20}}>
+                                        <Text center stlye={{textAlign: "center", width: 50}} color="white">X</Text>
+                                      </TouchableOpacity>
+                                  </Block>
+                                      <Text color="white" size={14} style={styles.cardTitle}>{item.pivot.qty+" x "+item.name+", "+item.pivot.variant_name}</Text>
+                                      {item.pivot.ingredientes != null && <Text color="white" size={14} style={styles.cartTitle}>{"Quitar ingredientes: "+ item.pivot.ingredientes}</Text>}
+                                      {JSON.parse(item.pivot.extras) !="" && <Text color="white" style={styles.cardTitle}>{"Extras: "+JSON.parse(item.pivot.extras).join(', ')}</Text>}
+                                      <Text color="white" size={14} style={styles.cardTitle}>{"Precio: "+ item.pivot.variant_price + config.currencySign}</Text>
                                   </Block>
                                 )
                                 })
@@ -284,10 +238,10 @@ function OrderDetails({navigation,route}){
                          {/* deliveryMethod */}
 
                          <InfoBox title={Language.deliveryMethod}>
-                         <Text size={14} style={styles.cardTitle}>{Language.deliveryMethod+": "+(order.delivery_method == 3?Language.delivery:Language.pickup)}</Text>
+                         <Text size={14} style={styles.cardTitle}>{Language.deliveryMethod+": "+(order.delivery_method == 3?Language.delivery:order.delivery_method == 2?Language.pickup:order.delivery_method == 4?Language.recogerenbarra:Language.nada)}</Text>
                          {order.delivery_method === 3 && <Text size={14} style={styles.cardTitle}>{"Mesa a la que entregar: "+order.table.name}</Text>}
                          {order.delivery_method === 3 && <Text size={14} style={styles.cardTitle}>{"Area: "+order.table.restoarea.name}</Text>}
-                         {order.delivery_method != 3 &&<Text size={14} style={styles.cardTitle}>{(order.delivery_method==2?Language.deliveryTime:Language.pickupTime)+": "+order.time_formated}</Text>}
+                         {(order.delivery_method === 1 || order.deliver_method === 2)  &&  <Text size={14} style={styles.cardTitle}>{(order.delivery_method==2?Language.deliveryTime:Language.pickupTime)+": "+order.time_formated}</Text>}
                          </InfoBox>
 
 

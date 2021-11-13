@@ -14,6 +14,7 @@ import config from './../config'
 import {  LoadingIndicator } from 'react-native-expo-fancy-alerts';
 import { Checkbox } from 'galio-framework';
 import moment from "moment";
+import Button from "../components//Button";
 import * as Location from 'expo-location';
 
 
@@ -27,12 +28,16 @@ function Orders({navigation}){
   const [errorMsg, setErrorMsg] = useState(null);
 
   const [orders,setOrders]=useState([]);
+  const [order,setOrder]=useState([]);
   const [available,setAvailable]=useState(false);
   const [ordersLoaded,setOrdersLoaded]=useState(false);
   const [refreshing, setRefreshing] = React.useState(false);
+  const [action,setAction]=useState("");
+
+  const [active,setActive]=useState("just_created");
+  const tab = ['just_created', 'accepedd'];
 
   const cardContainer = [styles.card, styles.shadow];
-
 
 
 
@@ -151,20 +156,43 @@ function Orders({navigation}){
 
     }
 
+    function renderTabs(tabs){
+        const isActive = tab === active;
+        return (
+            <TouchableOpacity
+                onPress={()=>{setActive(tabs);}}
+                key={`tabs-${tab}`}
+            >
+                <Text primary={isActive} style={styles.cardTitle, { paddingVertical: 2 }} gray2={!isActive} h6>{tab}</Text>
+            </TouchableOpacity>
+        )
+
+    }
 
     function renderOrderItem(item){
         return (
         <Block row={true} card flex style={cardContainer}>
+          <Block style={{ flexDirection: "row"}}>
           <TouchableOpacity onPress={()=>{
             navigation.navigate("OrderDetails",{order:item});
-          }}>
-             <Block flex space="between" style={styles.cardDescription}>
+            }}>
+            <Block style={styles.cardDescription}>
                 <Text bold style={styles.cardTitle}>#{item.id} {item.restorant.name}</Text>
                 <Text muted  style={styles.cardTitle}>{Language.created+": "}{moment(item.created_at).format(config.dateTimeFormat)}</Text>
                 <Text muted bold style={styles.cardTitle}>{Language.status+": "}{item.status.length-1>-1?Language[item.status[item.status.length-1].alias]:""}</Text>
                 <Text bold style={styles.cardTitle}>{parseFloat(item.order_price)+parseFloat(item.delivery_price)}{config.currencySign}</Text>
             </Block>
-          </TouchableOpacity>
+            </TouchableOpacity>
+            <Block style={{ flexDirection: "column-reverse"}}>
+            {
+              item.actions.buttons.map((action)=>{
+                return (<Button onPress={()=>{setAction(action); setRefreshing(true); API.updateOrderStatus(item.id,action,"",(data)=>{
+                  setAction("");
+                })}} style={{opacity:1}} size="small" color={action.indexOf('reject')>-1?"error":"success"} >{Language[action].toUpperCase()}</Button>)
+              })
+            }
+            </Block>
+          </Block>
 
         </Block>)
     }
@@ -177,11 +205,33 @@ function Orders({navigation}){
       }
     }
 
+    function renderTablas(){
+      const tablas = ["LALALA", "FAFAFA"]
+      return (
+        <Text>
+      {tablas.map(tabla => <Text>{tablas}</Text>)}
+    </Text>)
+    }
 return (
 <Block flex center style={styles.home}>
   {
     renderDriverActionBox(available)
   }
+<Block>
+      <Block color={"white"} >
+          <Block flex={false} row style={{paddingHorizontal: 20, paddingVertical: 20}} space="between">
+              <TouchableOpacity onPress={()=>{setActive("just_created"); setRefreshing(true);}} key={`tabs-just_accepted`}>
+              <Button style={{opacity:1, backgroundColor: active === "just_created" ?"#5e72e4":'#777777'}} size="small">Nuevos pedidos</Button>
+              </TouchableOpacity>
+              <TouchableOpacity onPress={()=>{setActive("accepted_by_restaurant"); setRefreshing(true);}} key={`tabs-accepted_by_restaurant`}>
+                  <Button style={{opacity:1, backgroundColor: active === "accepted_by_restaurant" ?"#5e72e4":'#777777'}} size="small">En proceso</Button>
+              </TouchableOpacity>
+              <TouchableOpacity onPress={()=>{setActive("delivered"); setRefreshing(true);}} key={`tabs-delivered`}>
+                  <Button style={{opacity:1, backgroundColor: active === "delivered" ?"#5e72e4":"#777777"}} size="small">Entregados</Button>
+              </TouchableOpacity>
+          </Block>
+      </Block>
+</Block>
 <ScrollView
             showsVerticalScrollIndicator={false}
             contentContainerStyle={styles.articles}
@@ -191,7 +241,7 @@ return (
             >
                 <Block flex  >
                 {
-                    orders.map((item)=>{
+                    orders.filter(pedidos => pedidos.status[pedidos.status.length-1].alias === active).map((item)=>{
                         return renderOrderItem(item)
                     })
                 }
@@ -213,6 +263,10 @@ const styles = StyleSheet.create({
       },
       listStyle:{
           padding:theme.SIZES.BASE,
+      },
+      gris: {
+        backgroundColor:"#777777",
+        color: "white",
       },
     home: {
       width: width,

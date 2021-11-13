@@ -43,6 +43,7 @@
     "react-native-easy-toast": "^1.2.0",
     "react-native-expo-fancy-alerts": "^2.1.0",
     "react-native-gesture-handler": "~1.10.2",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
     "react-native-maps": "0.28.0",
     "react-native-modal-dropdown": "git+https://github.com/siemiatj/react-native-modal-dropdown.git",
     "react-native-modals": "^0.19.9",
@@ -50,7 +51,7 @@
     "react-native-places-input": "^1.1.7",
     "react-native-popup-dialog": "^0.18.3",
     "react-native-reanimated": "~2.2.0",
-    "react-native-safe-area-context": "3.2.0",
+    "react-native-safe-area-context": "^3.2.0",
     "react-native-screens": "~3.4.0",
     "react-native-unimodules": "~0.14.5",
     "react-native-web": "~0.13.12"

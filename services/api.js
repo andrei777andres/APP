@@ -4,19 +4,20 @@ import DriverAPI from './driver_api'
 import VendorAPI from './vendor_api'
 
 /**
-  * 
+  *
   * COMMON API
-  * 
+  *
   */
 exports.loginUser=CommonAPI.loginUser;
 exports.registerUser=CommonAPI.registerUser;
 exports.getNotifications=CommonAPI.getNotifications;
 exports.updateOrderStatus=CommonAPI.updateOrderStatus;
+exports.removeItemOrder=CommonAPI.removeItemOrder;
 
 /**
- * 
+ *
  * Client API
- * 
+ *
  */
  exports.getCities=ClientAPI.getCities;
  exports.getRestaurants=ClientAPI.getRestaurants;
@@ -30,9 +31,9 @@ exports.updateOrderStatus=CommonAPI.updateOrderStatus;
  exports.saveAddress=ClientAPI.saveAddress;
 
 /**
-  * 
+  *
   * DRIVER API
-  * 
+  *
   */
 exports.getDriverStatus=DriverAPI.getDriverStatus;
 exports.setActiveStatus=DriverAPI.setActiveStatus;
@@ -42,9 +43,9 @@ exports.getDriverEarnings=DriverAPI.getDriverEarnings;
 exports.updateDriverOrderLocation=DriverAPI.updateDriverOrderLocation;
 
 /**
-  * 
+  *
   * VENDOR API
-  * 
+  *
   */
  exports.getVendorOrders=VendorAPI.getVendorOrders;
  exports.getVendorOrder=VendorAPI.getVendorOrder;

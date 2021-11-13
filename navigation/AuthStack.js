@@ -17,15 +17,13 @@ export default function  AuthStack(props) {
     return (
         <Stack.Navigator presentation="card" >
             <Stack.Screen
-                name="Login"
+                name="Iniciar Sesion"
                 component={Login}
                 options={{
                     headerMode:"screen",
-                    header: ({ navigation, scene }) => (
-                        <Header transparent white title={Language.login} routeName={"Login"}  navigation={navigation} scene={scene} />
-                    ),
+                    headerShown: false,
                     headerTransparent: true,
-                    cardStyle: { backgroundColor: "#F8F9FE" }
+                    cardStyle: { backgroundColor: "white" }
                 }}
             />
             <Stack.Screen

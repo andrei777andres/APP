@@ -2,20 +2,24 @@ import React, { useContext,useState, useRef } from "react";
 import {
   StyleSheet,
   ImageBackground,
+  ActivityIndicator,
   Dimensions,
   StatusBar,
   KeyboardAvoidingView,
   Image,
   Linking
 } from "react-native";
-import { Block, Text } from "galio-framework";
+import { Block, Text, theme } from "galio-framework";
 import config from '../config';
 import { Button, Icon, Input } from "../components";
+
 import { Images, argonTheme, Language } from "../constants";
 import { TouchableOpacity } from "react-native-gesture-handler";
 const { width, height } = Dimensions.get("screen");
 import Toast from 'react-native-easy-toast'
 import AuthContext from './../store/auth'
+import { SafeAreaView } from "react-native-safe-area-context";
+import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 
 
 const Login = ({navigation}) => {
@@ -24,23 +28,30 @@ const Login = ({navigation}) => {
 
   const { signIn } = useContext(AuthContext);
   const [email, setEmail ] = useState("");
+  const [cargando, setCargando] = useState("false");
   const [ password, setPassword ] = useState("");
 
   return (
+    <SafeAreaView style={{ flex: 1, backgroundColor: "white", paddingTop: 25}}>
+    <Block style={{alignItems: "center"}}>
+        <Image  middle source={Images.food_tiger_logo} style={{alignItems: "center", width: (487/2),height: (144/2)}}/>
+    </Block>
+    <KeyboardAwareScrollView contentContainerStyle={{ flexGrow: 1 }} bounces={false} keyboardShouldPersistTaps='handled'>
     <Block stlye="alignItems: center" flex middle>
-        <StatusBar hidden />
-        <ImageBackground
-          source={Images.RegisterBackground}
-          style={{ width, height, zIndex: 1 }}
-        >
           <Block flex middle>
-            <Block style={styles.registerContainer}>
-
               <Block flex>
                 <Block flex={0.17} middle style={{marginTop:20}}>
-                  <Image source={Images.food_tiger_logo} style={{width: (487/2),height: (144/2)}}/>
                   <Text muted></Text>
                 </Block>
+
+                <Block flex={false} >
+                    <Text h1 bold>¡Hola!</Text>
+                    <Block margin={0} style={{paddingBottom: 25}}>
+                        <Text h6>Introduzca sus datos</Text>
+                        <Text h6 style={{ marginTop: 10 }}>para iniciar sesión</Text>
+                    </Block>
+                </Block>
+
                 <Block flex center>
                   <KeyboardAvoidingView
                     style={{ flex: 1 }}
@@ -108,25 +119,32 @@ const Login = ({navigation}) => {
 
 
                     <Block middle>
-                      <Button color="primary" style={styles.createButton} onPress={()=> signIn({email:email,password:password,toastok:toastok,toasterror:toasterror})}>
-                        <Text bold size={14} color={argonTheme.COLORS.WHITE}>
-                        {Language.login}
-                        </Text>
+                      <Button color="primary" style={styles.createButton} onPress={()=>{setCargando("true"); signIn({email:email,password:password,toastok:toastok,toasterror:toasterror})}}>
+                        {cargando === "true" ? <ActivityIndicator size="small" color="white" /> :
+                        <Text bold size={14} color={argonTheme.COLORS.WHITE}>{Language.login}
+                        </Text>}
                       </Button>
+                      <Block flex={false} margin={5}>
+                          <Text center>Servicio propiedad de EnLaMesa</Text>
+                      </Block>
                     </Block>
 
                   </KeyboardAvoidingView>
                 </Block>
               </Block>
-
-
-
-            </Block>
           </Block>
-        </ImageBackground>
+
         <Toast ref={toastok} style={{backgroundColor:argonTheme.COLORS.SUCCESS}}/>
         <Toast ref={toasterror} style={{backgroundColor:argonTheme.COLORS.ERROR}}/>
       </Block>
+      <Block flex={false} style={{ alignItems: "flex-end" }} margin={-60}>
+          <ImageBackground source={Images.Footer}
+              style={styles.footerImage}
+              resizeMethod="resize"
+          />
+      </Block>
+      </KeyboardAwareScrollView>
+      </SafeAreaView>
   );
 };
 
@@ -183,5 +201,10 @@ const styles = StyleSheet.create({
   createButton: {
     width: width * 0.5,
     marginTop: 25
+  },
+  footerImage: {
+      width: 220,
+      height: 190,
+      transform: [{ rotate: '310deg' }]
   }
 });

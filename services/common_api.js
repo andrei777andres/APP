@@ -100,3 +100,7 @@ exports.updateOrderStatus=async (order_id,status_slug,comment,callback)=>{
     var mode=config.DRIVER_APP?"driver":"vendor";
     APICaller.authAPI('GET',mode+'/orders/updateorderstatus/'+order_id+"/"+statuses[status_slug],{"comment":comment},callback,(error)=>{alert(error)})
 };
+
+exports.removeItemOrder=async (item_id, order_id, callback)=>{
+  APICaller.authAPI('GET','vendor/orders/removeitemorder/'+order_id+"/"+item_id,{},callback,(error)=>{alert(error)})
+};

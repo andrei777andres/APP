@@ -1,5 +1,5 @@
 exports.domain = "https://enlamesa.es/api/v2";
-exports.APP_SECRET="cleqsZQ0FQGaaEpuNR228wvo02JTLgsj2Qko9Y9N4LI="; //Your app secret - same as in the .env file in your web project 
+exports.APP_SECRET="cleqsZQ0FQGaaEpuNR228wvo02JTLgsj2Qko9Y9N4LI="; //Your app secret - same as in the .env file in your web project
 exports.APP_NAME="EnLaMesa";
 exports.LOGO="https://enlamesa.es/logo.png";
 
@@ -18,20 +18,20 @@ exports.currencySign="€";
 exports.enableCOD=true;  //Cash on deliver
 
 //Stripe settup
-exports.enableStripe=true; 
+exports.enableStripe=true;
 exports.stripePublishKey="pk_test_51H2qh6I5MlgeNwEZ2wTFsK6RmGdVIPimmBq3kAzqsGyN3EjRMifG2DyMNkcDtDuAAccw3Ys6GQjELp6vKDto3Evu00Ji6LihEP";
 
 //Other payment gateways
-exports.enablePayPal=true; 
-exports.enableMollie=false; 
-exports.enablePayStack=false; 
+exports.enablePayPal=true;
+exports.enableMollie=false;
+exports.enablePayStack=false;
 
 //Date format
 exports.dateTimeFormat="Do MMMM YYYY, h:mm a";
 exports.dateFormat="Do MMMM YYYY";
 
 //OneSignal APP KEY
-exports.ONESIGNAL_APP_ID="YOUR_ONESIGNAL_APP_ID";
+exports.ONESIGNAL_APP_ID="410daed4-2d73-4d3d-8f23-6b0ff7648954";
 
 //Google setup
 exports.GOOGLE_API_KEY="AIzaSyAOsayYWWARZlfe0N-6sPMce6fAGu7FhPk";

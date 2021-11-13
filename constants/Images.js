@@ -1,6 +1,7 @@
 // local imgs
 const Onboarding = require("../assets/imgs/bg.png");
 const Logo = require("../assets/imgs/argon-logo.png");
+const Footer = require("../assets/imgs/footer.png");
 const LogoOnboarding = require("../assets/imgs/argon-logo-onboarding.png");
 const ProfileBackground = require("../assets/imgs/profile-screen-bg.png");
 const RegisterBackground = require("../assets/imgs/register-bg.png");
@@ -31,6 +32,7 @@ const Products = {
 export default {
   Onboarding,
   Logo,
+  Footer,
   LogoOnboarding,
   ProfileBackground,
   ProfilePicture,
