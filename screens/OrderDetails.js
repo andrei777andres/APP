@@ -13,6 +13,14 @@ import InfoBox from "../components/InfoBox"
 import API from './../services/api'
 import Button from "../components//Button";
 import 'moment/locale/es';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faMinus } from '@fortawesome/free-solid-svg-icons';
+import { faUtensils } from '@fortawesome/free-solid-svg-icons';
+import { faCircleMinus } from '@fortawesome/free-solid-svg-icons';
+import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
+
 
 
 /**
@@ -50,11 +58,14 @@ import 'moment/locale/es';
 
 
 
+
 function OrderDetails({navigation,route}){
     const [order,setOrder]=useState(route.params.order);
     const [driver_percent_from_deliver,setDriverPercentFromDeliver]=useState(100);
     const [action,setAction]=useState("");
     const [item,setItem]=useState("");
+    const [objeto,setObjeto]=useState("");
+    const [operador,setOperador]=useState("");
     const [refreshing, setRefreshing] = React.useState(false);
 
     useEffect(()=>{
@@ -216,17 +227,50 @@ function OrderDetails({navigation,route}){
                            {
                                order.items.map((item,index)=>{
                                 return (
-                                  <Block style={{backgroundColor: "#5e72e4", padding:10, borderRadius:15, marginTop:10}}>
-                                  <Block style={{width: 40, height: 20, alignSelf: "flex-end"}}>
-                                      <TouchableOpacity onPress={()=>{setItem(item.pivot.id)}} style={{backgroundColor:"black", borderRadius: 20}}>
-                                        <Text center stlye={{textAlign: "center", width: 50}} color="white">X</Text>
-                                      </TouchableOpacity>
-                                  </Block>
-                                      <Text color="white" size={14} style={styles.cardTitle}>{item.pivot.qty+" x "+item.name+", "+item.pivot.variant_name}</Text>
-                                      {item.pivot.ingredientes != null && <Text color="white" size={14} style={styles.cartTitle}>{"Quitar ingredientes: "+ item.pivot.ingredientes}</Text>}
-                                      {JSON.parse(item.pivot.extras) !="" && <Text color="white" style={styles.cardTitle}>{"Extras: "+JSON.parse(item.pivot.extras).join(', ')}</Text>}
-                                      <Text color="white" size={14} style={styles.cardTitle}>{"Precio: "+ item.pivot.variant_price + config.currencySign}</Text>
-                                  </Block>
+                                  <ScrollView
+                                  showsVerticalScrollIndicator={false}
+                                  
+                                  >
+                                    <Block style={{backgroundColor: "#5e72e4", padding:10, borderRadius:15, marginTop:10}}>
+                                        <Block style={{ flexDirection: 'row'}}>
+                                        <Image
+                                        style={{width: 100, height: 100, borderRadius: 5, marginRight: 10, marginTop:10}}
+                                        source={{uri: ""+item.image+"_large.jpg"}}
+                                        />
+                                        <Block style={{ marginBottom: 10, marginTop: 10}}>
+                                          <Text color="white" size={14} style={styles.cardTitle}>{item.name}</Text>               
+                                          <Text color="white" size={14} style={styles.cardTitle}>{item.pivot.qty+" x "+item.pivot.variant_price + config.currencySign}</Text>
+                                          <Block style={{width: 40, height: 20, flexDirection: 'row', alignSelf: "flex-start"}}>
+                                            <TouchableOpacity onPress={()=>{ API.updateItemOrderQty(item.pivot.id, order.id, "restar", 
+                                              (data)=>{
+                                                        setOrder(data[0]);
+                                                        setRefreshing(true);
+                                                      })}}
+                                              style={{backgroundColor:"black", borderRadius: 5, padding: 10, marginRight: 5}}>
+                                              <FontAwesomeIcon  style={{color: "red"}} icon={faMinus} />
+                                            </TouchableOpacity>
+                                            <TouchableOpacity onPress={()=>{ API.updateItemOrderQty(item.pivot.id, order.id, "sumar", 
+                                              (data)=>{
+                                                        setOrder(data[0]);
+                                                        setRefreshing(true);
+                                                      })}} 
+                                              style={{backgroundColor:"black", borderRadius: 5, padding: 10, marginRight: 10}}>
+                                              <FontAwesomeIcon  style={{color: "lightgreen"}} icon={faPlus} />
+                                            </TouchableOpacity>
+                                          </Block>
+                                        </Block>
+                                        <Block style={{alignSelf: "flex-end", marginBottom: -5}}>
+                                            <TouchableOpacity onPress={()=>{setItem(item.pivot.id)}} style={{backgroundColor:"black", borderRadius: 5, padding: 10}}>
+                                              <FontAwesomeIcon  style={{color: "white"}} icon={faTrash} />
+                                            </TouchableOpacity>
+                                        </Block>
+                                        </Block>
+                                        <Block style={{ marginTop: 10 }}>
+                                          {item.pivot.ingredientes != null && <Text color="white" size={14} style={styles.cardTitle}><FontAwesomeIcon icon={faCircleMinus} style={{color: "white"}} /> {"Quitar ingredientes: "+ item.pivot.ingredientes}</Text>}
+                                          {JSON.parse(item.pivot.extras) !="" && <Text color="white" style={styles.cardTitle}><FontAwesomeIcon icon={faCirclePlus} style={{color: "white"}} /> {"Extras: "+JSON.parse(item.pivot.extras).join(', ')}</Text>}
+                                        </Block>
+                                    </Block>
+                                  </ScrollView>
                                 )
                                 })
                            }

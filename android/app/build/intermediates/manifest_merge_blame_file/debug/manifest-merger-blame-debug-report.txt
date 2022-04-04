@@ -9,54 +9,54 @@
 9        android:targetSdkVersion="30" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:3:3-75
-11-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:3:20-73
+11-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:3:3-75
+11-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:3:20-73
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:2:3-64
-12-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:2:20-62
+12-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:2:20-62
 13    <uses-permission android:name="android.permission.VIBRATE" />
-13-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:4:3-63
-13-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:4:20-61
+13-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:4:3-63
+13-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:4:20-61
 14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-14-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:5:3-78
-14-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:5:20-76
+14-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:5:3-78
+14-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:5:20-76
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:6:3-76
-15-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:6:20-74
+15-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:6:3-76
+15-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:6:20-74
 16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-16-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:7:3-75
-16-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:7:20-72
+16-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:7:3-75
+16-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:7:20-72
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:8:3-77
-17-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:8:20-75
+17-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:8:3-77
+17-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:8:20-75
 18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-18-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:9:3-78
-18-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:9:20-76
+18-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:9:3-78
+18-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:9:20-76
 19    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-19-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:10:3-70
-19-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:10:20-68
+19-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:10:3-70
+19-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:10:20-68
 20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-20-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:11:3-76
-20-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:11:20-74
+20-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:11:3-76
+20-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:11:20-74
 21    <uses-permission android:name="android.permission.WAKE_LOCK" />
-21-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:12:3-65
-21-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:12:20-63
+21-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:12:3-65
+21-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:12:20-63
 22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-22-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:13:3-79
-22-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:13:20-77
+22-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:13:3-79
+22-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:13:20-77
 23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 23-->[com.facebook.flipper:flipper:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\1521ea22361ff101daeb3222ad22f96d\jetified-flipper-0.54.0\AndroidManifest.xml:16:5-76
 23-->[com.facebook.flipper:flipper:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\1521ea22361ff101daeb3222ad22f96d\jetified-flipper-0.54.0\AndroidManifest.xml:16:22-73
 24
 25    <queries>
-25-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-22:15
+25-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-22:15
 26
 27        <!-- Query open documents -->
 28        <intent>
-28-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-21:18
+28-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-21:18
 29            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
-29-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-79
-29-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:21-76
+29-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-79
+29-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:21-76
 30        </intent>
 31    </queries> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
 32    <permission
@@ -144,126 +144,126 @@
 66-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\7608551145040dd2014fdd623e406a39\jetified-library-3.2.11\AndroidManifest.xml:16:22-91
 67
 68    <application
-68-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:3-33:17
+68-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:3-33:17
 69        android:name="com.mobidonia.foodtiger.MainApplication"
-69-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:52-83
+69-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:52-83
 70        android:allowBackup="true"
-70-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:198-224
+70-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:198-224
 71        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 71-->[androidx.core:core:1.3.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\d59e844bf90dc8c0cd401d75f997e268\core-1.3.0\AndroidManifest.xml:24:18-86
 72        android:debuggable="true"
 73        android:icon="@mipmap/ic_launcher"
-73-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:117-151
+73-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:117-151
 74        android:label="@string/app_name"
-74-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:84-116
+74-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:84-116
 75        android:roundIcon="@mipmap/ic_launcher_round"
-75-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:152-197
+75-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:152-197
 76        android:theme="@style/AppTheme"
-76-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:225-256
+76-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:225-256
 77        android:usesCleartextTraffic="true" >
-77-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:16-51
+77-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:16-51
 78        <meta-data
-78-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:15:5-125
+78-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:15:5-125
 79            android:name="expo.modules.updates.EXPO_UPDATE_URL"
-79-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:15:16-67
+79-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:15:16-67
 80            android:value="https://exp.host/@dimovdaniel/foodtiger" />
-80-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:15:68-123
+80-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:15:68-123
 81        <meta-data
-81-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:16:5-93
+81-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:16:5-93
 82            android:name="expo.modules.updates.EXPO_SDK_VERSION"
-82-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:16:16-68
+82-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:16:16-68
 83            android:value="40.0.0" />
-83-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:16:69-91
+83-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:16:69-91
 84        <meta-data
-84-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:17:5-82
+84-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:17:5-82
 85            android:name="expo.modules.updates.ENABLED"
-85-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:17:16-59
+85-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:17:16-59
 86            android:value="true" />
-86-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:17:60-80
+86-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:17:60-80
 87        <meta-data
-87-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:18:5-105
+87-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:18:5-105
 88            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
-88-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:18:16-80
+88-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:18:16-80
 89            android:value="ALWAYS" />
-89-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:18:81-103
+89-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:18:81-103
 90        <meta-data
-90-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:19:5-99
+90-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:19:5-99
 91            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
-91-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:19:16-79
+91-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:19:16-79
 92            android:value="0" />
-92-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:19:80-97
+92-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:19:80-97
 93
 94        <activity
-94-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:5-31:16
+94-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:5-31:16
 95            android:name="com.mobidonia.foodtiger.MainActivity"
-95-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:15-43
+95-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:15-43
 96            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-96-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:77-154
+96-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:77-154
 97            android:label="@string/app_name"
-97-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:44-76
+97-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:44-76
 98            android:launchMode="singleTask"
-98-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:155-186
+98-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:155-186
 99            android:screenOrientation="portrait"
-99-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:276-312
+99-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:276-312
 100            android:theme="@style/Theme.App.SplashScreen"
-100-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:230-275
+100-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:230-275
 101            android:windowSoftInputMode="adjustResize" >
-101-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:187-229
+101-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:187-229
 102            <intent-filter>
-102-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:21:7-24:23
+102-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:21:7-24:23
 103                <action android:name="android.intent.action.MAIN" />
-103-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:22:9-60
-103-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:22:17-58
+103-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:22:9-60
+103-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:22:17-58
 104
 105                <category android:name="android.intent.category.LAUNCHER" />
-105-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:23:9-68
-105-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:23:19-66
+105-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:23:9-68
+105-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:23:19-66
 106            </intent-filter>
 107            <intent-filter>
-107-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:25:7-30:23
+107-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:25:7-30:23
 108                <action android:name="android.intent.action.VIEW" />
-108-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:26:9-60
-108-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:26:17-58
+108-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:26:9-60
+108-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:26:17-58
 109
 110                <category android:name="android.intent.category.DEFAULT" />
-110-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:27:9-67
-110-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:27:19-65
+110-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:27:9-67
+110-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:27:19-65
 111                <category android:name="android.intent.category.BROWSABLE" />
-111-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:28:9-69
-111-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:28:19-67
+111-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:28:9-69
+111-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:28:19-67
 112
 113                <data android:scheme="com.mobidonia.foodtiger" />
-113-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:29:9-57
-113-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:29:15-55
+113-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:29:9-57
+113-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:29:15-55
 114            </intent-filter>
 115        </activity>
 116        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-116-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:32:5-81
-116-->C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:32:15-79
+116-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:32:5-81
+116-->C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:32:15-79
 117
 118        <meta-data
-118-->[:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
+118-->[:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
 119            android:name="org.unimodules.core.AppLoader#react-native-headless"
-119-->[:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
+119-->[:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
 120            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
-120-->[:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+120-->[:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
 121
 122        <provider
-122-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-34:20
+122-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-34:20
 123            android:name="expo.modules.filesystem.FileSystemFileProvider"
-123-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-74
+123-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-74
 124            android:authorities="com.enlamesa.enlamesa.FileSystemFileProvider"
-124-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-74
+124-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-74
 125            android:exported="false"
-125-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-37
+125-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-37
 126            android:grantUriPermissions="true" >
-126-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-47
+126-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-47
 127            <meta-data
-127-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-33:70
+127-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-33:70
 128                android:name="android.support.FILE_PROVIDER_PATHS"
-128-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-67
+128-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-67
 129                android:resource="@xml/file_system_provider_paths" />
-129-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-67
+129-->[:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-67
 130        </provider>
 131
 132        <meta-data
@@ -373,13 +373,13 @@
 185        </receiver>
 186
 187        <service
-187-->[:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-19:56
+187-->[:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-19:56
 188            android:name="expo.modules.location.services.LocationTaskService"
-188-->[:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+188-->[:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
 189            android:exported="false"
-189-->[:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+189-->[:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
 190            android:foregroundServiceType="location" /> <!-- Needs to be explicitly declared on P+ -->
-190-->[:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-53
+190-->[:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-53
 191        <uses-library
 191-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\c47dbb173c188668dd86c58b731bef2d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 192            android:name="org.apache.http.legacy"

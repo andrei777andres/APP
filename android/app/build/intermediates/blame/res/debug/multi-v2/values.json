@@ -1,8 +1,44 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\TESTER\\Documents\\GitHub\\APP2\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\TESTER\\Documents\\GitHub\\APP\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\TESTER\\Documents\\GitHub\\APP\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "5,10",
+                        "startColumns": "0,2",
+                        "startOffsets": "68,324",
+                        "endLines": "9,14",
+                        "endColumns": "10,10",
+                        "endOffsets": "274,604"
+                    },
+                    "to": {
+                        "startLines": "852,3292",
+                        "startColumns": "4,4",
+                        "startOffsets": "63101,223807",
+                        "endLines": "856,3296",
+                        "endColumns": "10,10",
+                        "endOffsets": "63346,224144"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\TESTER\\Documents\\GitHub\\APP\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,2",
+                        "startColumns": "2,2,2",
+                        "startOffsets": "242,117,72",
+                        "endColumns": "119,123,43",
+                        "endOffsets": "359,238,113"
+                    },
+                    "to": {
+                        "startLines": "702,703,704",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "45056,45178,45304",
+                        "endColumns": "121,125,45",
+                        "endOffsets": "45173,45299,45345"
+                    }
+                },
                 {
                     "source": "C:\\Users\\TESTER\\.gradle\\caches\\transforms-2\\files-2.1\\956d98d727a68080df87e7d8410efdb5\\recyclerview-1.1.0\\res\\values\\values.xml",
                     "from": {
@@ -75,23 +111,6 @@
                         "endLines": "4590,4597,4608,6946,6951",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "308527,308912,309509,430156,430426"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\TESTER\\Documents\\GitHub\\APP2\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
-                    "from": {
-                        "startLines": "6,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "162,227",
-                        "endColumns": "63,68",
-                        "endOffsets": "221,291"
-                    },
-                    "to": {
-                        "startLines": "666,667",
-                        "startColumns": "4,4",
-                        "startOffsets": "42537,42601",
-                        "endColumns": "63,68",
-                        "endOffsets": "42596,42665"
                     }
                 },
                 {
@@ -243,20 +262,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\TESTER\\Documents\\GitHub\\APP2\\android\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "source": "C:\\Users\\TESTER\\Documents\\GitHub\\APP\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "56",
-                        "endOffsets": "109"
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "162,227",
+                        "endColumns": "63,68",
+                        "endOffsets": "221,291"
                     },
                     "to": {
-                        "startLines": "176",
-                        "startColumns": "4",
-                        "startOffsets": "11274",
-                        "endColumns": "56",
-                        "endOffsets": "11326"
+                        "startLines": "666,667",
+                        "startColumns": "4,4",
+                        "startOffsets": "42537,42601",
+                        "endColumns": "63,68",
+                        "endOffsets": "42596,42665"
                     }
                 },
                 {
@@ -313,25 +332,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\TESTER\\Documents\\GitHub\\APP2\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "5,10",
-                        "startColumns": "0,2",
-                        "startOffsets": "68,324",
-                        "endLines": "9,14",
-                        "endColumns": "10,10",
-                        "endOffsets": "274,604"
-                    },
-                    "to": {
-                        "startLines": "852,3292",
-                        "startColumns": "4,4",
-                        "startOffsets": "63101,223807",
-                        "endLines": "856,3296",
-                        "endColumns": "10,10",
-                        "endOffsets": "63346,224144"
-                    }
-                },
-                {
                     "source": "C:\\Users\\TESTER\\.gradle\\caches\\transforms-2\\files-2.1\\883988662ca65b19e87972bdc938c4b3\\coordinatorlayout-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,6,16",
@@ -348,6 +348,40 @@
                         "endLines": "24,4414,5681,5770",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "1334,298386,367806,373017"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\TESTER\\Documents\\GitHub\\APP\\android\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "6,2,5,4,3",
+                        "startColumns": "2,2,2,2,2",
+                        "startOffsets": "273,72,223,175,118",
+                        "endColumns": "43,44,48,46,55",
+                        "endOffsets": "314,114,269,219,171"
+                    },
+                    "to": {
+                        "startLines": "120,121,122,177,215",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "7355,7401,7448,11331,13837",
+                        "endColumns": "45,46,50,48,57",
+                        "endOffsets": "7396,7443,7494,11375,13890"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\TESTER\\Documents\\GitHub\\APP\\android\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "56",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "176",
+                        "startColumns": "4",
+                        "startOffsets": "11274",
+                        "endColumns": "56",
+                        "endOffsets": "11326"
                     }
                 },
                 {
@@ -425,23 +459,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\TESTER\\Documents\\GitHub\\APP2\\android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "4,3,2",
-                        "startColumns": "2,2,2",
-                        "startOffsets": "242,117,72",
-                        "endColumns": "119,123,43",
-                        "endOffsets": "359,238,113"
-                    },
-                    "to": {
-                        "startLines": "702,703,704",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "45056,45178,45304",
-                        "endColumns": "121,125,45",
-                        "endOffsets": "45173,45299,45345"
-                    }
-                },
-                {
                     "source": "C:\\Users\\TESTER\\.gradle\\caches\\transforms-2\\files-2.1\\1ef1a10fd85bbdbaec9ab59e9900b265\\jetified-firebase-messaging-17.3.4\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -456,23 +473,6 @@
                         "startOffsets": "52308",
                         "endColumns": "81",
                         "endOffsets": "52385"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\TESTER\\Documents\\GitHub\\APP2\\android\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "6,2,5,4,3",
-                        "startColumns": "2,2,2,2,2",
-                        "startOffsets": "273,72,223,175,118",
-                        "endColumns": "43,44,48,46,55",
-                        "endOffsets": "314,114,269,219,171"
-                    },
-                    "to": {
-                        "startLines": "120,121,122,177,215",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "7355,7401,7448,11331,13837",
-                        "endColumns": "45,46,50,48,57",
-                        "endOffsets": "7396,7443,7494,11375,13890"
                     }
                 }
             ]

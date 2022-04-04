@@ -104,3 +104,7 @@ exports.updateOrderStatus=async (order_id,status_slug,comment,callback)=>{
 exports.removeItemOrder=async (item_id, order_id, callback)=>{
   APICaller.authAPI('GET','vendor/orders/removeitemorder/'+order_id+"/"+item_id,{},callback,(error)=>{alert(error)})
 };
+
+exports.updateItemOrderQty=async (item_id, order_id, operador, callback)=>{
+  APICaller.authAPI('GET','vendor/orders/updateitemorderqty/'+order_id+"/"+item_id+"/"+operador,{},callback,(error)=>{alert(error)})
+};

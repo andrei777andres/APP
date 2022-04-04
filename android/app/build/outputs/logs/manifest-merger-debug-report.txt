@@ -1,45 +1,46 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:1:1-34:12
-INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:1:1-34:12
-INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:1:1-34:12
-INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:1:1-34:12
-MERGED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:1:1-34:12
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:1:1-34:12
 MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\1521ea22361ff101daeb3222ad22f96d\jetified-flipper-0.54.0\AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\b0e545b1aadd9b5d296296ec05f6986b\jetified-flipper-network-plugin-0.54.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\cd96642e8a738868497e87ae978cb2c4\jetified-flipper-fresco-plugin-0.54.0\AndroidManifest.xml:8:1-15:12
-MERGED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
-MERGED from [:expo-splash-screen] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-updates] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-async-storage_async-storage] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_masked-view] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-gesture-handler] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
-MERGED from [:react-native-onesignal] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-safe-area-context] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:expo-splash-screen] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-updates] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-async-storage_async-storage] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-onesignal] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-safe-area-context] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.63.4] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4f5de61042f2ace9620ad1e56d83d21b\jetified-react-native-0.63.4\AndroidManifest.xml:2:1-13:12
-MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-37:12
+MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\37f2cce2cf80b008a865e1998ca1c547\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:2:1-106:12
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\3d1c3f9336453e9844318913e86408f0\browser-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\fd583ce041c3b9065708cd3d54732c8b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\38a48dbc860fe0f1f1efdce87916ebc2\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [:expo-application] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-application\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-constants] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-error-recovery] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-font] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-image-loader] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-image-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-keep-awake] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-22:12
-MERGED from [:expo-modules-core] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-modules-core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-structured-headers] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-structured-headers\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-app-loader] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\unimodules-app-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-task-manager-interface] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-core] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-updates-interface] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-updates-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-application] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-application\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-error-recovery] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-font] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-image-loader] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-image-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-22:12
+MERGED from [:expo-modules-core] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-modules-core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-structured-headers] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-structured-headers\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-app-loader] C:\Users\TESTER\Documents\GitHub\APP\node_modules\unimodules-app-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] C:\Users\TESTER\Documents\GitHub\APP\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-updates-interface] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-updates-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\e7ef4c8aec6ae2b12b32f5f7a02ae2f6\jetified-android-jsc-r245459\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-reanimated\android\build\.transforms\8bdd20b162c1da9c3c9259db0df2d74c\jetified-react-native-reanimated-63-jsc\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-reanimated\android\build\.transforms\9338ef6268fb1ae19fac4eb3d6798d1c\jetified-react-native-reanimated-63-jsc\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\bb5411827c0339d8adea343068ef4ae7\jetified-flipper-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.2.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4a1010494217354c33e7cd8eb17ea5b9\jetified-stetho-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.2.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\3db8d23911e7639a57ac7ade8cdc4b22\jetified-fresco-2.2.0\AndroidManifest.xml:2:1-9:12
@@ -112,34 +113,34 @@ MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\TESTER\.gradle\cac
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\a0eb2115bfe57597957a3daa83900c57\jetified-android-maps-utils-0.5\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\d90a0056065a8323812a5961afcd9f5c\jetified-fbcore-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\858dd2e1ae875af37fae843d7ac5d971\jetified-ui-common-2.2.0\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:1:70-103
-		INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:1:70-103
-		INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:1:70-103
+		INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:1:70-103
+		INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:1:1-34:12
-		INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml:2:5-51
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml:2:5-51
 	android:versionCode
-		INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:1:1-34:12
-		INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:2:3-64
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:2:3-64
 MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\1521ea22361ff101daeb3222ad22f96d\jetified-flipper-0.54.0\AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\1521ea22361ff101daeb3222ad22f96d\jetified-flipper-0.54.0\AndroidManifest.xml:15:5-67
-MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
-MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
-MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
-MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:16:5-67
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:16:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\c47dbb173c188668dd86c58b731bef2d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
@@ -147,63 +148,63 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\TESTER\.
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\f023596b3616bab58ef2c0f01c82f80e\jetified-firebase-iid-17.0.4\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\f023596b3616bab58ef2c0f01c82f80e\jetified-firebase-iid-17.0.4\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:2:20-62
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:2:20-62
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:3:3-75
-MERGED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:3:3-75
-MERGED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:3:3-75
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:3:3-75
+MERGED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:3:3-75
+MERGED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:3:3-75
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:3:20-73
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:3:20-73
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:4:3-63
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:4:3-63
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:23:5-66
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:23:5-66
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:4:20-61
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:4:20-61
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:5:3-78
-MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
-MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
-MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
-MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:5:3-78
+MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\7608551145040dd2014fdd623e406a39\jetified-library-3.2.11\AndroidManifest.xml:12:5-81
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\7608551145040dd2014fdd623e406a39\jetified-library-3.2.11\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:5:20-76
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:5:20-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:6:3-76
-MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
-MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:6:3-76
+MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\7608551145040dd2014fdd623e406a39\jetified-library-3.2.11\AndroidManifest.xml:14:5-79
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\7608551145040dd2014fdd623e406a39\jetified-library-3.2.11\AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:6:20-74
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:6:20-74
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:7:3-75
-MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
-MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:7:3-75
+MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:7:20-72
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:7:20-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:8:3-77
-MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
-MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:8:3-77
+MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:8:20-75
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:8:20-75
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:9:3-78
-MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
-MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:9:3-78
+MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:9:20-76
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:9:20-76
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:10:3-70
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:10:3-70
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:10:20-68
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:10:20-68
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:11:3-76
-MERGED from [:expo-updates] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
-MERGED from [:expo-updates] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:11:3-76
+MERGED from [:expo-updates] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+MERGED from [:expo-updates] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:24:5-79
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\c47dbb173c188668dd86c58b731bef2d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
@@ -213,37 +214,37 @@ MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\TESTER\.gradle\ca
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\7608551145040dd2014fdd623e406a39\jetified-library-3.2.11\AndroidManifest.xml:13:5-79
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\7608551145040dd2014fdd623e406a39\jetified-library-3.2.11\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:11:20-74
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:11:20-74
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:12:3-65
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:12:3-65
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:18:5-68
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:18:5-68
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\f023596b3616bab58ef2c0f01c82f80e\jetified-firebase-iid-17.0.4\AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\f023596b3616bab58ef2c0f01c82f80e\jetified-firebase-iid-17.0.4\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:12:20-63
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:12:20-63
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:13:3-79
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:13:3-79
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:17:5-82
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:17:5-82
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\f023596b3616bab58ef2c0f01c82f80e\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
 MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\f023596b3616bab58ef2c0f01c82f80e\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:13:20-77
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:13:20-77
 application
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:3-33:17
-MERGED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:3-33:17
-MERGED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:3-33:17
-MERGED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-15:19
-MERGED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-15:19
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:3-33:17
+MERGED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:3-33:17
+MERGED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:3-33:17
+MERGED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-15:19
 MERGED from [com.facebook.react:react-native:0.63.4] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4f5de61042f2ace9620ad1e56d83d21b\jetified-react-native-0.63.4\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.4] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4f5de61042f2ace9620ad1e56d83d21b\jetified-react-native-0.63.4\AndroidManifest.xml:11:5-20
-MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-35:19
-MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-35:19
+MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-35:19
+MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-35:19
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:48:5-104:19
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:48:5-104:19
-MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-20:19
-MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-20:19
+MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-20:19
+MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-20:19
 MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\58eb5792a19838194364070c92f216bf\jetified-soloader-0.9.0\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\58eb5792a19838194364070c92f216bf\jetified-soloader-0.9.0\AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\b5d29781b16f6e6bfbf119253b273514\material-1.1.0\AndroidManifest.xml:22:5-20
@@ -293,141 +294,143 @@ MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\TESTER\.gr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\d59e844bf90dc8c0cd401d75f997e268\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:84-116
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:84-116
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:84-116
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:84-116
 	tools:ignore
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml:6:75-114
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml:6:75-114
 	android:roundIcon
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:152-197
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:152-197
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:152-197
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:152-197
 	tools:targetApi
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml:6:54-74
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml:6:54-74
 	android:icon
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:117-151
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:117-151
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:117-151
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:117-151
 	android:allowBackup
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:198-224
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:198-224
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:198-224
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:198-224
 	android:theme
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:225-256
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:225-256
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:225-256
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:225-256
 	android:usesCleartextTraffic
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:16-51
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:16-51
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:52-83
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:14:52-83
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:52-83
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:14:52-83
 meta-data#expo.modules.updates.EXPO_UPDATE_URL
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:15:5-125
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:15:5-125
 	android:value
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:15:68-123
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:15:68-123
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:15:16-67
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:15:16-67
 meta-data#expo.modules.updates.EXPO_SDK_VERSION
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:16:5-93
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:16:5-93
 	android:value
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:16:69-91
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:16:69-91
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:16:16-68
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:16:16-68
 meta-data#expo.modules.updates.ENABLED
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:17:5-82
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:17:5-82
 	android:value
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:17:60-80
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:17:60-80
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:17:16-59
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:17:16-59
 meta-data#expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:18:5-105
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:18:5-105
 	android:value
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:18:81-103
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:18:81-103
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:18:16-80
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:18:16-80
 meta-data#expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:19:5-99
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:19:5-99
 	android:value
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:19:80-97
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:19:80-97
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:19:16-79
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:19:16-79
 activity#com.mobidonia.foodtiger.MainActivity
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:5-31:16
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:5-31:16
 	android:screenOrientation
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:276-312
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:276-312
 	android:label
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:44-76
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:44-76
 	android:launchMode
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:155-186
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:155-186
 	android:windowSoftInputMode
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:187-229
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:187-229
 	android:configChanges
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:77-154
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:77-154
 	android:theme
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:230-275
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:230-275
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:20:15-43
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:20:15-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:21:7-24:23
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:21:7-24:23
 action#android.intent.action.MAIN
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:22:9-60
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:22:9-60
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:22:17-58
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:22:17-58
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:23:9-68
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:23:9-68
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:23:19-66
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:23:19-66
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.mobidonia.foodtiger
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:25:7-30:23
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:25:7-30:23
 action#android.intent.action.VIEW
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:26:9-60
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:26:9-60
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:26:17-58
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:26:17-58
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:27:9-67
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:27:9-67
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:27:19-65
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:27:19-65
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:28:9-69
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:28:9-69
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:28:19-67
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:28:19-67
 data
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:29:9-57
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:29:9-57
 	android:scheme
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:29:15-55
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:29:15-55
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:32:5-81
+ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:32:5-81
 	android:name
-		ADDED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml:32:15-79
+		ADDED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml:32:15-79
 uses-sdk
-INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml
 MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\1521ea22361ff101daeb3222ad22f96d\jetified-flipper-0.54.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\1521ea22361ff101daeb3222ad22f96d\jetified-flipper-0.54.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\b0e545b1aadd9b5d296296ec05f6986b\jetified-flipper-network-plugin-0.54.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\b0e545b1aadd9b5d296296ec05f6986b\jetified-flipper-network-plugin-0.54.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\cd96642e8a738868497e87ae978cb2c4\jetified-flipper-fresco-plugin-0.54.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\cd96642e8a738868497e87ae978cb2c4\jetified-flipper-fresco-plugin-0.54.0\AndroidManifest.xml:11:5-13:41
-MERGED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-splash-screen] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-splash-screen] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-updates] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-updates] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-async-storage_async-storage] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-async-storage_async-storage] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-onesignal] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-onesignal] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-safe-area-context] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-screens] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-splash-screen] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-splash-screen] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-updates] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-updates] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-async-storage_async-storage] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-onesignal] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-onesignal] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.63.4] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4f5de61042f2ace9620ad1e56d83d21b\jetified-react-native-0.63.4\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4f5de61042f2ace9620ad1e56d83d21b\jetified-react-native-0.63.4\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
-MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\37f2cce2cf80b008a865e1998ca1c547\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\37f2cce2cf80b008a865e1998ca1c547\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:4:5-44
@@ -438,36 +441,36 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\TESTER\.grad
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\fd583ce041c3b9065708cd3d54732c8b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\38a48dbc860fe0f1f1efdce87916ebc2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\38a48dbc860fe0f1f1efdce87916ebc2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [:expo-application] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-application\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-application] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-application\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-constants] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-constants] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-error-recovery] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-error-recovery] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-font] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-font] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-image-loader] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-image-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-image-loader] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-image-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-keep-awake] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-keep-awake] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-modules-core] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-modules-core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-modules-core] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-modules-core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-structured-headers] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-structured-headers\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-structured-headers] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-structured-headers\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-app-loader] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\unimodules-app-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-app-loader] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\unimodules-app-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-task-manager-interface] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-task-manager-interface] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-core] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-core] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-updates-interface] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-updates-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-updates-interface] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-updates-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-application] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-application\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-application] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-application\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-loader] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-image-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-loader] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-image-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-modules-core] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-modules-core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-modules-core] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-modules-core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-structured-headers] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-structured-headers\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-structured-headers] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-structured-headers\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] C:\Users\TESTER\Documents\GitHub\APP\node_modules\unimodules-app-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] C:\Users\TESTER\Documents\GitHub\APP\node_modules\unimodules-app-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\TESTER\Documents\GitHub\APP\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\TESTER\Documents\GitHub\APP\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-updates-interface] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-updates-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-updates-interface] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-updates-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\e7ef4c8aec6ae2b12b32f5f7a02ae2f6\jetified-android-jsc-r245459\AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\e7ef4c8aec6ae2b12b32f5f7a02ae2f6\jetified-android-jsc-r245459\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-reanimated\android\build\.transforms\8bdd20b162c1da9c3c9259db0df2d74c\jetified-react-native-reanimated-63-jsc\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\react-native-reanimated\android\build\.transforms\8bdd20b162c1da9c3c9259db0df2d74c\jetified-react-native-reanimated-63-jsc\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-reanimated\android\build\.transforms\9338ef6268fb1ae19fac4eb3d6798d1c\jetified-react-native-reanimated-63-jsc\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\TESTER\Documents\GitHub\APP\node_modules\react-native-reanimated\android\build\.transforms\9338ef6268fb1ae19fac4eb3d6798d1c\jetified-react-native-reanimated-63-jsc\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\bb5411827c0339d8adea343068ef4ae7\jetified-flipper-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\bb5411827c0339d8adea343068ef4ae7\jetified-flipper-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:stetho:2.2.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4a1010494217354c33e7cd8eb17ea5b9\jetified-stetho-2.2.0\AndroidManifest.xml:5:5-7:41
@@ -612,50 +615,50 @@ MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\TESTER\.gradle\caches\tr
 MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\d90a0056065a8323812a5961afcd9f5c\jetified-fbcore-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\858dd2e1ae875af37fae843d7ac5d971\jetified-ui-common-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\858dd2e1ae875af37fae843d7ac5d971\jetified-ui-common-2.2.0\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\TESTER\Documents\GitHub\APP2\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\TESTER\Documents\GitHub\APP\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\1521ea22361ff101daeb3222ad22f96d\jetified-flipper-0.54.0\AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.54.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\1521ea22361ff101daeb3222ad22f96d\jetified-flipper-0.54.0\AndroidManifest.xml:16:22-73
 meta-data#org.unimodules.core.AppLoader#react-native-headless
-ADDED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
+ADDED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
 	android:value
-		ADDED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+		ADDED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
 	android:name
-		ADDED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
+		ADDED from [:unimodules-react-native-adapter] C:\Users\TESTER\Documents\GitHub\APP\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
 queries
-ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-22:15
+ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-22:15
 intent
-ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-21:18
+ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-21:18
 action#android.intent.action.OPEN_DOCUMENT_TREE
-ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-79
+ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-79
 	android:name
-		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:21-76
+		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:21-76
 provider#expo.modules.filesystem.FileSystemFileProvider
-ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-34:20
+ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-34:20
 	android:grantUriPermissions
-		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-47
+		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-47
 	android:authorities
-		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-74
+		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-74
 	android:exported
-		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-37
+		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-37
 	tools:replace
-		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-48
+		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-48
 	android:name
-		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-74
+		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-74
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-33:70
+ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-33:70
 	android:resource
-		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-67
+		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-67
 	android:name
-		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-67
+		ADDED from [:expo-file-system] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-67
 permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:7:5-9:47
 	android:protectionLevel
@@ -855,13 +858,13 @@ ADDED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\trans
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.13.2] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\4c674a46c2d2d83b8f38225cd51a906e\jetified-OneSignal-3.13.2\AndroidManifest.xml:101:25-81
 service#expo.modules.location.services.LocationTaskService
-ADDED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-19:56
+ADDED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-19:56
 	android:exported
-		ADDED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+		ADDED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
 	android:foregroundServiceType
-		ADDED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-53
+		ADDED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-53
 	android:name
-		ADDED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP2\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+		ADDED from [:expo-location] C:\Users\TESTER\Documents\GitHub\APP\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\TESTER\.gradle\caches\transforms-2\files-2.1\c47dbb173c188668dd86c58b731bef2d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion

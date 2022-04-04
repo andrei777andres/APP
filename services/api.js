@@ -13,6 +13,7 @@ exports.registerUser=CommonAPI.registerUser;
 exports.getNotifications=CommonAPI.getNotifications;
 exports.updateOrderStatus=CommonAPI.updateOrderStatus;
 exports.removeItemOrder=CommonAPI.removeItemOrder;
+exports.updateItemOrderQty=CommonAPI.updateItemOrderQty;
 
 /**
  *

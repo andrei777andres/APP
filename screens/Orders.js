@@ -35,7 +35,7 @@ function Orders({navigation}){
   const [action,setAction]=useState("");
 
   const [active,setActive]=useState("just_created");
-  const tab = ['just_created', 'accepedd'];
+  const tab = ['just_created', 'accepted'];
 
   const cardContainer = [styles.card, styles.shadow];
 

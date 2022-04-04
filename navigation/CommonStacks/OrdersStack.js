@@ -7,6 +7,7 @@ import Orders from "./../../screens/Orders";
 import OrderDetails from './../../screens/OrderDetails'
 
 
+
 // header for screens
 import Header from "../../components/Header";
 
@@ -15,12 +16,13 @@ const Stack = createStackNavigator();
 
 export default function  OrdersStack(props) {
     return (
-        <Stack.Navigator presentation="card" >
+        <Stack.Navigator presentation="card">
             <Stack.Screen
                 name="Pedidos"
                 component={Orders}
                 options={{
                     headerMode:"screen",
+                    gestureEnabled:"true",
                     header: ({ navigation, scene }) => (
                         <Header title={Language.orders} routeName={"Orders"}  navigation={navigation} scene={scene} />
                     ),
