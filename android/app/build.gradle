@@ -191,6 +191,9 @@ android {
 }
 
 dependencies {
+    implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '3.10.0'
+    implementation group: 'com.squareup.okhttp3', name: 'okhttp-urlconnection', version: '3.8.0'
+    implementation group: 'commons-io', name: 'commons-io', version: '1.4'
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
