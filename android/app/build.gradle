@@ -154,10 +154,10 @@ android {
             keyPassword 'android'
         }
         release {
-            storeFile file('production.keys')
-            storePassword 'android'
-            keyAlias 'androidproductioin'
-            keyPassword 'android'
+            storeFile file('firma.keystore')
+            storePassword 'Buzdugan2001'
+            keyAlias 'alias-app'
+            keyPassword 'Buzdugan2001'
         }
     }
     buildTypes {
